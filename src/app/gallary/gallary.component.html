@@ -1,0 +1,7 @@
+<div>
+    <input type="checkbox" (click)="disable()">
+</div>
+
+<div *ngFor="let img of images" class="image">
+    <img [appHover]="disabled" src="{{img.path}}" width="240" height="170">
+</div>

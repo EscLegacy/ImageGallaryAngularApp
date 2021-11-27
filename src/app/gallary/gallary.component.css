@@ -1,0 +1,18 @@
+
+
+.image
+{
+    display: inline-block;
+    padding: 17px;
+    box-shadow:rgb(224, 199, 199) 1px 1px 10px 1px;      
+    cursor: pointer; 
+    margin-left: 95px;
+    margin-top: 30px;
+    background-color: white;
+    position: relative;
+    
+}
+
+/* .image:hover
+    transform: scale(1.5); (150% zoom)
+    transition: all 0.3s ease 0s; */
